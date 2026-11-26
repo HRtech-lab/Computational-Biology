@@ -12,7 +12,7 @@ A dynamic-programming matrix answers a pairwise question. Hirschberg reduces tra
 
 The de Bruijn lesson reconstructs a classroom string from a multiset of k-mers. The statistics lessons distinguish alleles from genotypes, show what PCA axes can and cannot identify, trace a Viterbi path and compute linkage disequilibrium from phased counts. All sequences and observations used here are constructed, and no external sequence database is downloaded.
 
-The final lecture runs BiWFA using WFA2-lib's ultralow-memory mode with pruning disabled. It checks five native results against a separate Gotoh implementation. BiWFA, Edlib and Minimap2 solve different alignment or mapping problems. A single performance ranking across them would have no common objective.
+The bidirectional wavefront lecture runs BiWFA using WFA2-lib's ultralow-memory mode with pruning disabled. It checks five native results against a separate Gotoh implementation. BiWFA, Edlib and Minimap2 solve different alignment or mapping problems. A database-search lecture then recovers query intervals and strand using BLAST+. The MAFFT lecture inspects column occupancy and agreement in a four-sequence alignment. These are different evaluation objectives.
 
 ## Worked lectures
 
@@ -36,5 +36,7 @@ The final lecture runs BiWFA using WFA2-lib's ultralow-memory mode with pruning 
 | [16. UPGMA Trees](16%20UPGMA%20Trees/README.md) | Reconstruct an ultrametric tree from an artificial distance matrix and compare its implied pair distances with the input. |
 | [17. Linkage Disequilibrium](17%20Linkage%20Disequilibrium/README.md) | Measure association between alleles at two loci from known phased chromosome copies. |
 | [18. Bidirectional wavefront alignment](18%20Bidirectional%20wavefront%20alignment/README.md) | Run BiWFA from WFA2-lib on sequence pairs with known edits and verify its cost with an independent dynamic programme. |
+| [19. BLAST nucleotide database search](19%20BLAST%20nucleotide%20database%20search/README.md) | Locate short fragments in a small local nucleotide database and verify the winning sequence, interval and strand. |
+| [20. MAFFT multiple sequence alignment](20%20MAFFT%20multiple%20sequence%20alignment/README.md) | Align four related classroom strings and inspect which columns are shared, variable or sparsely occupied. |
 
 See the [environment and source notes](../../README.md) for dependencies and native tools. [MIT licence](../../LICENSE)

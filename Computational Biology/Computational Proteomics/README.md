@@ -10,7 +10,7 @@ The digestion and mass lessons introduce residue masses, water, charge and the t
 
 ## Inference and uncertainty
 
-A strong peptide-spectrum score is one piece of evidence. Learn how competing target and decoy hits lead to score-level q-values, how multiple proteins can explain the same observed peptides, and how missing intensities affect sample-to-sample ratios. The MaxLFQ lecture recovers known relative log-abundances and records the connectivity assumption. The final statistical exercise reports both discoveries and incorrect calls because its ground truth is constructed.
+A strong peptide-spectrum score is one piece of evidence. Learn how competing target and decoy hits lead to score-level q-values, how multiple proteins can explain the same observed peptides, and how missing intensities affect sample-to-sample ratios. The MaxLFQ lecture recovers known relative log-abundances and records the connectivity assumption. The differential-abundance exercise reports both discoveries and incorrect calls because its ground truth is constructed. The final lecture uses Foldseek to compare a public ubiquitin structure against a rigid transformation and a controlled segment displacement. The deposited coordinates come from [PDB 1UBQ](https://www.rcsb.org/structure/1UBQ).
 
 ## Worked lectures
 
@@ -30,5 +30,6 @@ A strong peptide-spectrum score is one piece of evidence. Learn how competing ta
 | [12. Kabsch structural superposition](12%20Kabsch%20structural%20superposition/README.md) | Align two sets of matched synthetic coordinates while preserving handedness. |
 | [13. Differential abundance and multiplicity](13%20Differential%20abundance%20and%20multiplicity/README.md) | Test changes across replicate samples and compare raw and adjusted significance. |
 | [14. Sage peptide spectrum matching](14%20Sage%20peptide%20spectrum%20matching/README.md) | Identify which synthetic peptide produced each artificial tandem mass spectrum, using the public Sage search engine. |
+| [15. Foldseek structural alignment](15%20Foldseek%20structural%20alignment/README.md) | Use experimentally determined ubiquitin coordinates to test whether a structure search recovers a rigidly transformed copy. |
 
 See the [environment and source notes](../../README.md) for dependencies and native tools. [MIT licence](../../LICENSE)
