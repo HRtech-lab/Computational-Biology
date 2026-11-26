@@ -3,7 +3,7 @@
 Recover peak positions from an artificial profile-mode spectrum.
 
 OpenMS, centroiding and peak picking
-https://pyopenms.readthedocs.io/en/latest/user_guide/peak_picking.html"""
+https://pyopenms.readthedocs.io/en/stable/user_guide/centroiding.html"""
 
 from pathlib import Path
 import sys

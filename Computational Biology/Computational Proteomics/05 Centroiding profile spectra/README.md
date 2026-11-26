@@ -29,4 +29,4 @@ Move the second centre towards the first and find where the peak count changes.
 
 ## References
 
-[OpenMS, centroiding and peak picking](https://pyopenms.readthedocs.io/en/latest/user_guide/peak_picking.html)
+[OpenMS, centroiding and peak picking](https://pyopenms.readthedocs.io/en/stable/user_guide/centroiding.html)
