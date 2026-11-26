@@ -1,6 +1,8 @@
 # Computational Biology
 
-Two practical courses cover [Computational Genomics](Computational%20Biology/Computational%20Genomics/README.md) and [Computational Proteomics](Computational%20Biology/Computational%20Proteomics/README.md). Each algorithm has a worked example, explicit assumptions and an observable check. Begin with global alignment or peptide digestion, or open the [course directory](Computational%20Biology/README.md).
+The 35 worked lessons are organised into two courses covering [Computational Genomics](Computational%20Biology/Computational%20Genomics/README.md) and [Computational Proteomics](Computational%20Biology/Computational%20Proteomics/README.md). Each algorithm has a worked example, explicit assumptions and an observable check. Begin with global alignment or peptide digestion, or open the [course directory](Computational%20Biology/README.md).
+
+Start with [sequence composition](Computational%20Biology/Computational%20Genomics/01%20Sequence%20composition/README.md) to see how missing bases affect the denominator in a GC calculation.
 
 ## Running an example
 
@@ -24,4 +26,4 @@ The remaining notebooks use the Python dependencies alone. The Sage exercise cre
 
 The repository's [MIT licence](LICENSE) covers its original code, figures and teaching material. Each lecture cites the algorithm paper or specification and records which public implementation is called. Upstream projects distribute the libraries, native binaries and their manuals under their own terms. The included 1UBQ coordinates carry the wwPDB CC0 dedication. The published figures here come from the chapter scripts. [Dependency and source guide](SOURCES.md)
 
-The [earlier Python collection](https://github.com/HRtech-lab/Computational_Biology_with_Python/tree/archive/before-computational-biology-course) remains available in the repository history.
+The [earlier Python collection](https://github.com/HRtech-lab/Computational-Biology/tree/archive/before-computational-biology-course) remains available in the repository history.
